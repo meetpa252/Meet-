@@ -1,0 +1,818 @@
+
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+body {
+  font-family: 'Segoe UI', sans-serif;
+  
+  background-color: #fff;
+  color: #333;
+}
+
+/* */
+.nav {
+  background-color: #0A66C2;
+  padding: 10px 24px;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #494949;
+}
+
+.nav_logo img {
+  height: 50px;
+}
+
+
+
+.nav_menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 24px;
+  display: block;
+}
+
+.nav_menu ul li a:hover {
+  background-color: #16437E;
+  border-radius: 5px;
+}
+
+.nav_menu .icon1{
+  display: none;
+  font-size: 22px;
+  margin: 22px;
+  padding: 0;
+
+}
+
+/*.............. backgroung img  &  text......... */
+.hom {
+  position: relative;
+  height: 80vh;
+  background: url('image18.png') no-repeat center center/cover;
+  z-index: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.smp {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  z-index: 1;
+  color: white;
+  padding: 16px;
+  max-width: 500px;
+  border-radius: 8px;
+  font-size: x-large;
+  font-family: none;
+}
+
+.button-18 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: #0A66C2;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 1;
+ 
+}
+.button-18:hover {
+  background-color: #16437E;
+}
+
+/*.............Photo & text................*/
+.photo_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 23px;
+  gap: 2px;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 22px 0px #c3bdbd;
+ width: 99%;
+ background-color: #f7e7ff;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text1 {
+  max-width: 500px;
+}
+
+.text1 h1 {
+  color: #828991;
+}
+
+.button-19 {
+  background-color: #0A66C2;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button-19:hover {
+  background-color: #16437E;
+}
+
+/*..........BLOGS.................... */
+.mini_blog {
+  padding: 32px;
+}
+
+.tel h2 {
+  text-align: center;
+  color: #0A66C2;
+  margin-bottom: 16px;
+  font-size: xx-large;
+  font-family:'Font Awesome 5 Brands';
+}
+
+.mini_img {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.blog_img1, .blog_img2, .blog_img3 {
+  background-color: #f0f8ff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+      box-shadow: 0px 0px 22px 0px #cdcdcd;
+}
+.blog_img1 img, .blog_img2 img, .blog_img3 img {
+  max-width: 100%;
+}
+
+/* ........ teacher photo........*/
+.all_teacher {
+  background: #000;
+  color: white;
+  padding: 31px 16px;
+}
+
+.teacher_tex {
+  text-align: center;
+  color: #ffce71;
+  margin-bottom: 31px;
+}
+
+.black {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  padding: 18px;
+}
+
+.techer_img1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* ...........back........... */
+.back {
+  background-color: #EAEAEA;
+  height: 200px;
+  margin-top: -164px;
+}
+
+/* .................home page gallery img........ */
+
+h1.head_gallery {
+    font-family: cursive;
+    width: 21%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.gallery_img, .gallery_img2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* ..............Footer........... */
+.footer {
+    display: flex;
+    background-color: #e5e5e5;
+    gap: 11%;
+    padding: 13px;
+}
+.foot_1 {
+    width: 25%;
+    font-family: sans-serif;
+}
+.foot_2 , .foot_3 , .foot_4{
+    font-family:  sans-serif;
+    font-size:medium;
+}
+.sign {
+    gap: 10px;
+    display: flex;
+}
+
+
+
+
+/* .................2 Gallery page csss......... */
+
+.gallery_allimg{
+  font-family: cursive;
+    margin-top: 4%;
+    margin-bottom: 10px;
+    background: aliceblue;
+}
+
+.gallery_allimg1 ,.gallery_allimg2,.gallery_allimg3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+.ssmp {
+    position: absolute;
+    top: 38%;
+    left: 41%;
+    z-index: 1;
+    color: #f6f6f6;
+    font-family: cursive;
+    max-width: 500px;
+    border-radius: 8px;
+    font-size: xxx-large;
+}
+  .ssmp {
+    top: 47%;
+    margin-left: 22px;
+}
+
+
+  .sssmp{
+    top:43%;
+    left: 37%;
+  }
+
+  .slider {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+}
+
+img.btn {
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+/* ...................3 Teacher page css........ */
+
+
+
+  .sssmp {
+    position: absolute;
+    top: 42%;
+    left: 39%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    max-width: 500px;
+    border-radius: 8px;
+    font-size: larger;
+}
+
+.all_teacherpage {
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.tea1, .tea2 , .tea3 {
+    background: #e6f3ff;
+    padding: 12px;
+    box-shadow: 0px 0px 22px 0px #c3bdbd;
+
+}
+
+
+
+.all_teacherpage1,.all_teacherpage2,.all_teacherpage3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.\31 2334 {
+  width: 40%;
+  margin: auto;
+}
+
+
+img.\31 2345 {
+   width: 60%;
+    margin: auto;
+  
+    margin-left: 19%;
+}
+
+
+/* ................4 page  About page............ */
+
+.sssmp1 {
+    position: absolute;
+    top: 38%;
+    left: 33%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    max-width: 500px;
+    border-radius: 8px;
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+.about{
+    box-shadow: 0px 0px 22px 0px #cdcdcd;;
+}
+
+.about1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top:3%;
+    margin-bottom: 1%;
+    background: #2BA7E2;
+    color: white;
+    border-radius: 15px;
+}
+
+.about2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: larger;   
+    text-transform: capitalize;
+}
+
+
+
+
+/* ......................5 page Contact Us..........*/
+
+.sssmp2{
+   position: absolute;
+    top: 38%;
+    left: 33%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: larger;
+}
+  
+.formcontact {
+  
+    background-color: #e7d1e6d9;
+    width: 48%;
+    padding: 10px;
+    margin-top: 4%;
+    margin-bottom: 23px;
+    margin-left: 25%;
+    font-family: ui-monospace;
+    font-size: large;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    box-shadow: 0px 0px 22px 0px #4b4b4b ;
+}
+
+input[type="submit"] {
+   position: absolute;
+  top: 91%;
+  left: 44%;
+  background-color: #0A66C2;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  
+  z-index: 1;
+}
+
+
+.color {
+    background-color: #F6F7F9;
+   padding: 1%; 
+}
+
+.loction {
+    margin-left: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+    font-family: none;
+  }
+
+  iframe {
+    width: 88%;
+}
+
+
+
+/* ...........6 page Blogs */
+
+.sssmp3{
+   position: absolute;
+    top: 45%;
+    left: 33%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: larger;
+}
+.Blog{
+  font-family: cursive;
+  
+    margin-top: 4%;
+    margin-bottom: 10px;
+    /* background: aliceblue; */
+}
+.blog1{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.blogimg1{
+  box-shadow: 0px 0px 22px 0px #cdcdcd;
+  padding: 10px;
+  border-radius: 13px;
+   background: aliceblue;
+
+}
+
+ .blog2 {
+    display: flex;
+    padding: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #f7f7f7;
+    width: 78%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 22px 0px #cdcdcd;
+    border-radius: 13px;
+  }
+
+  .blogimg{
+  box-shadow: 0px 0px 22px 0px #cdcdcd;
+  padding: 10px;
+
+}
+
+
+
+.blog3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.blogimg2{
+  box-shadow: 0px 0px 22px 0px #cdcdcd;
+  padding: 10px;
+  border-radius: 13px;
+  background: aliceblue;
+
+}
+
+.imgetext {
+    padding: 26px;
+    text-align: center;
+    color: #955757;
+}
+
+
+h1.hh1 {
+    text-align: center;
+    margin-top: 22px;
+    color: #0A66C2;
+}
+
+
+/* ................... RESPONSIVE................... */
+
+@media screen and (max-width: 935px){
+
+  .sign {
+    gap: 4px;
+  }
+
+  .gallery_allimg1,.gallery_allimg2, .gallery_allimg3{
+    flex-wrap: wrap;
+  }
+
+  .about2{
+    font-size: medium;
+  }
+
+  .blog2 {
+    display: block;
+    padding: 10px;
+    
+}
+.loction {
+    margin-left: 1%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+   
+}
+
+}
+
+@media screen and (max-width: 650px){
+  
+    .footer {
+        display: block;
+    }
+
+    .formcontact {
+        width: 66%;
+    }
+
+  
+
+
+}
+
+@media screen and (max-width: 559px){
+  .imge1{
+    /* display: none; */
+    width: 325px;
+    height: 247px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav_menu ul {
+    display: flex;
+  }
+
+  .button-18 {
+    top: 37%;
+    left: 10%;
+    z-index: 1;
+  }
+
+  .smp {
+    top: 13%;
+    width: 34%;
+    font-size: large;
+  }
+
+  .photo_text {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .text1 {
+    padding: 16px 0;
+  }
+
+
+.hom {
+    position: relative;
+    height: 48vh;}
+
+    .footer{
+      gap:4%
+    }
+
+    .foot_2 , .foot_3 , .foot_4{
+    font-size: medium;
+}
+  .ssmp {
+    top: 20%;
+    margin-left: -7px;
+  }
+     
+  .sssmp {
+    top: 19%;
+    left: 28%;
+    font-family:inherit;;
+  }
+
+
+
+  .sssmp1{
+    top: 18%;
+    left: 21%;
+    font-size: medium;
+  }
+
+
+  .sssmp2{
+    font-size: medium;
+    margin-top: -24%;
+    margin-left: -20%;
+    
+  }
+  
+
+  /* conctec us */
+    .formcontact {
+        width: 66%;
+        margin-left: 13%;
+    }
+
+    .sssmp3{
+        margin-top: -32%;
+        margin-left: -112px;
+    }
+
+  img.\31 2345 {
+    width: 60%;
+    margin-left: 3%;
+    }
+
+    /* gallery 123 css*/
+      img.btn {
+    margin-left: -57%;
+    width: 197%;
+}
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .smp {
+     font-size: small;
+    padding: 1px;
+  }
+
+      .cont {
+      
+        height: 7vh;
+    }
+
+
+  .sssmp{
+     left: 24%;
+  }
+
+  .button-18, .button-19 {
+    font-size: 14px;
+    padding: 7px 18px;
+    
+  }
+
+  .button-18{
+  margin-top: -13%;
+  }
+
+  .nav_logo img {
+    height: 40px;
+  }
+
+  .footer{
+        
+        display: block;
+  }
+
+  .sign {
+    display: flex;
+    gap: 3%;
+   }
+      /* contact  us */
+    .sssmp2 {
+        margin-top: -33%;
+    }
+
+
+    .formcontact {
+        width: 66%;
+    }
+
+    .sssmp3{
+      margin-top: -52%;
+    
+    }
+
+    .foot_1{
+      margin-bottom: 10%;
+
+    }
+    .foot_2{
+      margin-bottom: 10%;
+      
+    }
+    .foot_3{
+      margin-bottom: 10%;
+      
+    }
+    .foot_4{
+      margin-bottom: 10%;
+      
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 87%;
+    }
+}
+
+
+
+/*..... hamburger   for 3 icon.........*/
+
+
+.nav_menu ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 26px;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 768px) {
+      .nav_menu ul {
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      
+    .back {
+
+      background: none;
+    }
+
+
+      .nav_menu ul.show {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+
+      .cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+    }
+
